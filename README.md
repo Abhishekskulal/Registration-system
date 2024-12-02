@@ -19,6 +19,35 @@ The project allows users to register with their personal information (Name, Emai
 
 ---
 
+## Folder Structure
+RegistrationApp/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── registration/
+│       │           ├── servlet/
+│       │           │   ├── CreateServlet.java
+│       │           │   ├── ReadServlet.java
+│       │           │   ├── UpdatePhoneServlet.java
+│       │           │   └── DeleteServlet.java
+│       │           ├── dao/
+│       │           │   ├── RegistrationDAO.java
+│       │           │   └── RegistrationDAOImpl.java
+│       │           ├── model/
+│       │           │   └── Registration.java
+│       │           └── utils/
+│       │               └── Database.java
+│       └── webapp/
+│           ├── WEB-INF/
+│           │   └── web.xml
+│           └── index.html
+├── DATABASE/
+│   └── registration.sql
+├── README.md
+└── .gitignore
+
+
 ## Setup Instructions
 ## Deploy to Tomcat
 If you're using Apache Tomcat, place the project files inside the webapps directory of your Tomcat installation.
