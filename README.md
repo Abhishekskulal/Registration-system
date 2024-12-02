@@ -20,6 +20,10 @@ The project allows users to register with their personal information (Name, Emai
 ---
 
 ## Setup Instructions
+## Deploy to Tomcat
+If you're using Apache Tomcat, place the project files inside the webapps directory of your Tomcat installation.
+Start your Tomcat server.
+Open a web browser and go to http://localhost:8080/RegistrationSystem/ to access the application.
 
 ### 1. Clone the Repository
 
@@ -28,8 +32,3 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/your-username/registration-system.git
 
-
-## Deploy to Tomcat
-If you're using Apache Tomcat, place the project files inside the webapps directory of your Tomcat installation.
-Start your Tomcat server.
-Open a web browser and go to http://localhost:8080/your-project-name/ to access the application.
