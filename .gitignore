@@ -1,0 +1,10 @@
+# Ignore compiled files
+*.class
+
+# Ignore logs and temporary files
+*.log
+
+# Ignore all files in a specific directory
+/target/
+
+
