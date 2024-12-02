@@ -15,6 +15,7 @@ The project allows users to register with their personal information (Name, Emai
 - JDBC
 - Git
 - Maven
+- DAO(Data Object Model) Pattern
 
 ---
 
